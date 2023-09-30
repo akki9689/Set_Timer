@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Timer App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Mada:wght@500&family=Oswald:wght@200;400;700&family=Poppins:wght@300&family=Roboto:wght@300;400&family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Multiple Timer App</h2>
+    <div class="timer-input-section">
+        <h4>Set time :</h4>
+        <label for="hours">HH<input type="number" id="hours" ></label>:
+        
+        
+        <label for="minutes">MM<input type="number" id="minutes"></label>
+        
+        
+        <label for="seconds">SS<input type="number" id="seconds" ></label>
+        
+        
+        <button id="start-timer">set</button>
+    </div>
+    <div class="active-timers-display" id="timers-container">
+       
+    </div>
+    <audio id="audio-alert" src="alert.mp3"></audio>
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
